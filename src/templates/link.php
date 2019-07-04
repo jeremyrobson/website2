@@ -1,0 +1,1 @@
+<li><a href=<?=$sef?>><?=$date?> <?=$title?></a></li>

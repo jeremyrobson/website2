@@ -1,0 +1,13 @@
+body {
+    background-color: #121212;
+    color: #DEDEDE;
+    font-family: monospace;
+}
+
+a {
+    color: #ABABAB;
+}
+
+a:visited {
+    color: #787878;
+}
