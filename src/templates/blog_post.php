@@ -1,3 +1,9 @@
-<h1><?=$title?></h1>
-<h3><?=$author?>&nbsp;-&nbsp;<?=$date?></h3>
-<h4><?=$body?></h4>
+<?php
+
+echo $parsedown->text("# $title");
+
+echo $parsedown->text("##### Posted by **$author** on _$date _");
+
+echo $parsedown->text($body);
+
+?>

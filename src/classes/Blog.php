@@ -1,5 +1,7 @@
 <?php
 
+require_once("vendor/erusev/parsedown/Parsedown.php");
+
 class BlogPost {
     public $file;
     public $date;
@@ -22,6 +24,7 @@ class BlogPost {
     }
 
     function getData() {
+        $parsedown = new Parsedown();
         extract($this->file);
         ob_start();
         include(TEMPLATE_DIR . "/" . $this->file["template"]);

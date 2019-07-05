@@ -6,7 +6,9 @@ return array(
     "author" => "Jeremy Robson",
     "sef" => "birthday",
     "template" => "blog_post.php",
-    "body" => "I was born on this day"
+    "body" => "####I was born on this day
+What else is new?
+    "
 );
 
 ?>
