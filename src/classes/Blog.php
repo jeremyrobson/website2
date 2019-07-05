@@ -79,7 +79,9 @@ class Blog {
         ob_start();
         require_once(TEMPLATE_DIR . "/post_data.php");
         $file_data = ob_get_contents();
+        ob_end_clean();
         file_put_contents($filename, $file_data);
+        chmod($filename, 0744);
     }
 }
 

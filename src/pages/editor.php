@@ -1,6 +1,7 @@
 <?php
     $errors = array();
     $input = array(
+        "secret_code" => @$_POST["secret_code"] ?? "",
         "title" => @$_POST["title"] ?? "",
         "author" => @$_POST["author"]?? "",
         "date" => @$_POST["date"] ?? date("Y-m-d"),
@@ -14,29 +15,43 @@
 
         $posts = $blog->getPosts($sef);
 
+        if (empty($secret_code) || $secret_code != $config["site"]["secret_code"]) {
+            $errors["secret_code"] = "The code is incorrect";
+        }
+
         if (count($posts) > 0) {
             $errors["title"] = "That title already exists!";
         }
 
-        $blog->createPost(array(
-            "date" => $input["date"],
-            "title" => $input["title"],
-            "author" => $input["author"],
-            "sef" => $sef,
-            "template" => "blog_post.php",
-            "body" => $input["body"],
-        ));
+        if (count($errors) === 0) {
+            $blog->createPost(array(
+                "date" => $input["date"],
+                "title" => $input["title"],
+                "author" => $input["author"],
+                "sef" => $sef,
+                "template" => "blog_post.php",
+                "body" => $input["body"],
+            ));
+        }
+        else {
+            $alert_type = "danger";
+            $alert_title = "Validation Error";
+            $alert_message = "There are errors on the form";
+        }
 
         //header("Location: " . BASE_URL . "/main");
         //die();
     }
 ?>
 
+<?php if (isset($alert_message)): include(TEMPLATE_DIR . "/alert.php"); endif; ?>
+
 <form method="POST">
     <input type="hidden" id="page" name="page" value="editor" />
     <div class="form-group">
         <label for="secret_code">Secret Code</label>
         <input type="text" class="form-control" id="secret_code" name="secret_code" placeholder="Secret Code" required>
+        <small class="text-danger"><?=@$errors["secret_code"]?></small>
     </div>
     <div class="form-group">
         <label for="title">Title</label>

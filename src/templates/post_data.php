@@ -1,7 +1,7 @@
 <?php
 
-print "<?php\n";
-print "return $arr\n";
-print "?>\n";
+echo "<?php\n";
+echo " return $arr\n";
+echo " ?>\n";
 
 ?>
