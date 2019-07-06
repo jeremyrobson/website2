@@ -55,8 +55,7 @@ class Blog {
     }
 
     function displayLinks() {
-        $output = "<h5>Previous Posts</h5>";
-        $output .= "<ul>";
+        $output = "<ul>";
         foreach ($this->posts as $post) {
             $output .= $post->getLink();
         }

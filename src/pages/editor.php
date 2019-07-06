@@ -34,9 +34,11 @@
             ));
         }
         else {
-            $alert_type = "danger";
-            $alert_title = "Validation Error";
-            $alert_message = "There are errors on the form";
+            $alert = array(
+                "type" => "danger",
+                "title" => "Validation Error",
+                "message" => "There are errors on the form"
+            );
         }
 
         //header("Location: " . BASE_URL . "/main");
@@ -44,7 +46,7 @@
     }
 ?>
 
-<?php if (isset($alert_message)): include(TEMPLATE_DIR . "/alert.php"); endif; ?>
+<?php if (isset($alert)): include(TEMPLATE_DIR . "/alert.php"); endif; ?>
 
 <form method="POST">
     <input type="hidden" id="page" name="page" value="editor" />

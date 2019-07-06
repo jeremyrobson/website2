@@ -34,7 +34,9 @@ require_once("src/classes/Blog.php");
 
 <body>
 
-<div class="container">
+<?php require_once("src/blocks/navbar.php"); ?>
+
+<div class="container mt-5">
 
 <?php
 
@@ -42,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $page = $_POST["page"];
 }
 else {
-    $page = isset($_GET["p"]) ? $_GET["p"] : "main";
+    $page = !empty($_GET["p"]) ? $_GET["p"] : "home";
 }
 
 if (!empty($page)) {
@@ -58,9 +60,11 @@ if (!empty($page)) {
 
 ?>
 
-<?php require_once("src/blocks/footer.php"); ?>
+<?php require_once("src/blocks/blog_links.php"); ?>
 
 </div>
+
+<?php require_once("src/blocks/footer.php"); ?>
 
 </body>
 

@@ -2,9 +2,10 @@ body {
     background-color: #121212;
     color: #DEDEDE;
     font-family: monospace;
+    font-size: 100%;
 }
 
-a {
+a:link {
     color: #ABABAB;
 }
 
@@ -12,6 +13,38 @@ a:visited {
     color: #787878;
 }
 
+a:link:hover {
+    color: #00FFFF;
+}
+
+a:visited:hover {
+    color: #FFFF00;
+}
+
+a:hover {
+    color: #00FFFF;
+}
+
+a:active {
+    color: #FF00FF;
+}
+
 pre {
     color: #959595;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+label {
+    font-size: 1.25em;
+}
+
+.navbar {
+    font-size: 1.25em;
 }

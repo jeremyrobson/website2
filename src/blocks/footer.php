@@ -1,8 +1,3 @@
-<div id="footer" class="pt-5">
-    <?php
-
-    $blog = new Blog("src/posts");
-    $blog->displayLinks();
-
-    ?>
-</div>
+<p class="pt-5 text-center">
+There is nothing beyond here.
+    </p>
