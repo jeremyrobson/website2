@@ -13,7 +13,7 @@ return array(
 
 #### Just testing some Markdown
 
-[Here is a link](www.soundcloud.com/jeremyrobson)
+[Here is a link](https://www.soundcloud.com/jeremyrobson)
 
 > \"This is a block quote \"
 

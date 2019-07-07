@@ -1,7 +1,10 @@
 <?php
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+
 require 'vendor/autoload.php';
+
 if (isset($_POST["message_submitted"])) {
     $email_from = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
     $subject = "New message submitted on jeremyrobson.com";

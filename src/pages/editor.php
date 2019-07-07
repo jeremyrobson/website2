@@ -15,6 +15,7 @@
 
         $posts = $blog->getPosts($sef);
 
+        //form validation
         if (empty($secret_code) || $secret_code != $config["site"]["secret_code"]) {
             $errors["secret_code"] = "The code is incorrect";
         }

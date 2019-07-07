@@ -1,4 +1,13 @@
 {
+    "name": "jeremyrobson.com",
+    "description": "The Music of Jeremy Robson",
+    "authors": [
+        {
+            "name": "Jeremy Robson",
+            "email": "jeremy.robson@gmail.com"
+        }
+    ],
+    "license":"proprietary",
     "require": {
         "erusev/parsedown": "^1.7"
     }

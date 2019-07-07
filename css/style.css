@@ -1,7 +1,7 @@
 body {
     background-color: #121212;
     color: #DEDEDE;
-    font-family: monospace;
+    font-family: "Inconsolata", monospace;
     font-size: 100%;
 }
 
@@ -14,19 +14,19 @@ a:visited {
 }
 
 a:link:hover {
-    color: #00FFFF;
+    color: #FFFFFF;
 }
 
 a:visited:hover {
-    color: #FFFF00;
+    color: #FFFFFF;
 }
 
 a:hover {
-    color: #00FFFF;
+    color: #FFFFFF;
 }
 
 a:active {
-    color: #FF00FF;
+    color: #FFFFFF;
 }
 
 pre {
@@ -47,4 +47,8 @@ label {
 
 .navbar {
     font-size: 1.25em;
+}
+
+.navbar-brand {
+    font-family: "Audiowide", cursive;
 }

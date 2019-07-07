@@ -6,6 +6,6 @@ return array (
   'sef' => 'test_post',
   'template' => 'blog_post.php',
   'body' => '#MARKDOWN!!!
-[link]("www.google.ca")',
+[link](mp3s/megaman.mp3)',
 )
 ?>

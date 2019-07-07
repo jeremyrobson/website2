@@ -14,6 +14,9 @@
         <a href="https://www.youtube.com/channel/UCfBk-TS4bOK2t0JFcFNufHw">My Youtube</a>
     </li>
     <li>
+        <a href="https://codepen.io/jeremyrobson/">My Codepen</a>
+    </li>
+    <li>
         <a href="http://soundclick.jeremyrobson.com">My SoundClick</a>
     </li>
     <li>
