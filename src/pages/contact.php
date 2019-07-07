@@ -18,7 +18,7 @@ if (isset($_POST["message_submitted"])) {
     $mail->Password = $config["mail"]["password"];
     $mail->SMTPSecure = $config["mail"]["secure"];
     $mail->Port = $config["mail"]["port"];
-    $mail->setFrom($config["site"]["contact_email"], "Contact");
+    $mail->setFrom($config["site"]["contact_email"], $email_from);
     //$mail->setFrom($email_from, $email_from);
     $mail->addAddress($config["site"]["admin_email"], 'Jeremy Robson');
     $mail->addReplyTo($email_from, 'noreply');

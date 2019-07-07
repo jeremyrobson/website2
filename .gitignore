@@ -3,4 +3,5 @@
 **/vendor
 **/mp3s
 config.ini
+phpinfo.php
 .phpunit.result.cache

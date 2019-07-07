@@ -1,8 +1,10 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 $config = parse_ini_file("config.ini", true);
+
+if ($config["site"]["debug"]) {
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+}
 
 define("BASE_URL", $config["site"]["base_url"]);
 define("ROOT_DIR", __DIR__);
