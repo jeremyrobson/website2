@@ -9,6 +9,7 @@
     ],
     "license":"proprietary",
     "require": {
-        "erusev/parsedown": "^1.7"
+        "erusev/parsedown": "^1.7",
+        "phpmailer/phpmailer": "^6.0"
     }
 }

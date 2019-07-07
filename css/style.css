@@ -1,8 +1,12 @@
 body {
-    background-color: #121212;
+    background-color: #262626;
     color: #DEDEDE;
     font-family: "Inconsolata", monospace;
     font-size: 100%;
+}
+
+a {
+    padding: 2px;
 }
 
 a:link {
@@ -15,18 +19,22 @@ a:visited {
 
 a:link:hover {
     color: #FFFFFF;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 a:visited:hover {
     color: #FFFFFF;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 a:hover {
     color: #FFFFFF;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 a:active {
     color: #FFFFFF;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 pre {

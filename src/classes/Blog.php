@@ -2,15 +2,25 @@
 
 require_once("vendor/erusev/parsedown/Parsedown.php");
 
+/**
+ * @author Jeremy Robson <jrobson23@jeremyrobson.com>
+ * @link https://www.jeremyrobson.com
+ */
 class BlogPost {
     public $file;
     public $date;
 
+    /**
+     * @param string $file filename
+     */
     function __construct($file) {
         $this->file = include(ROOT_DIR . "/src/posts/$file");
         $this->date = date("Y M d", strtotime($this->file["date"]));
     }
 
+    /**
+     * @return void
+     */
     function getLink() {
         $sef = $this->file["sef"];
         $date = $this->date;
@@ -23,6 +33,9 @@ class BlogPost {
         return ob_get_clean();
     }
 
+    /**
+     * @return void
+     */
     function getData() {
         $parsedown = new Parsedown();
         extract($this->file);
@@ -32,6 +45,10 @@ class BlogPost {
     }
 }
 
+/**
+ * @author Jeremy Robson <jrobson23@jeremyrobson.com>
+ * @link https://www.jeremyrobson.com
+ */
 class Blog {
     public $posts;
 
@@ -45,6 +62,11 @@ class Blog {
         }
     }
 
+    /**
+     * @param string $sef is a search engine friendly string
+     * 
+     * @return Array Returns an array of posts matching the $sef
+     */
     function getPosts($sef) {
         return array_filter(
             $this->posts,
@@ -54,6 +76,9 @@ class Blog {
         );
     }
 
+    /**
+     * @return void
+     */
     function displayLinks() {
         $output = "<ul>";
         foreach ($this->posts as $post) {
@@ -63,6 +88,11 @@ class Blog {
         print $output;
     }
 
+    /**
+     * @param string $sef is a search engine friendly string
+     * 
+     * @return void
+     */
     function display($sef) {
         $output = "";
         $posts = $this->getPosts($sef);
@@ -72,6 +102,11 @@ class Blog {
         print $output;
     }
 
+    /**
+     * @param Array $post_data is an array of post data
+     * 
+     * @return void
+     */
     function createPost($post_data) {
         $filename = BLOG_DIR . "/" . $post_data["sef"] . ".php";
         $arr = var_export($post_data, true);

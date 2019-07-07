@@ -1,5 +1,7 @@
 <h1>Music Archive</h1>
 
+<div class="pt-5">
+
 <h3>2017</h3>
 <ul class="my-auto">
     <li><em><a href="https://soundcloud.com/jeremyrobson/rei-iv">Rei IV</a></em> based on themes from Neon Genesis Evangelion</li>
@@ -178,3 +180,5 @@
     <li>Obtained copy of Cakewalk 3.0</li>
     <li>First MIDI compositions</li>
 </ul>
+
+</div>

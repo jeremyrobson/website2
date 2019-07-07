@@ -50,7 +50,7 @@ print_r($mail); die;
 
 <h1>Contact Me</h1>
 
-<form class="py-5" action="contact" method="post">
+<form class="pt-5" action="contact" method="post">
     <input type="hidden" name="page" value="contact" />
     <input type="hidden" name="message_submitted" value="1" />
     <div class="form-group">

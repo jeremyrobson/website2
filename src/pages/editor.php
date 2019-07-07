@@ -49,7 +49,9 @@
 
 <?php if (isset($alert)): include(TEMPLATE_DIR . "/alert.php"); endif; ?>
 
-<form method="POST">
+<h1>Secret Editor</h1>
+
+<form method="POST" class="pt-5">
     <input type="hidden" id="page" name="page" value="editor" />
     <div class="form-group">
         <label for="secret_code">Secret Code</label>

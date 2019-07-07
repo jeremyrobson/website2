@@ -1,4 +1,4 @@
-<div class="alert alert-<?=$alert_type?> alert-dismissible">
+<div class="alert alert-<?=$alert["type"]?> alert-dismissible">
     <button type="button" class="close" data-dismiss="alert">&times;</button>
-    <strong><?=$alert_title?></strong> <?=$alert_message?>
+    <strong><?=$alert["title"]?></strong> <?=$alert["message"]?>
 </div>
