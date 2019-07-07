@@ -11,6 +11,8 @@ define("TEMPLATE_DIR", ROOT_DIR . "/" . $config["site"]["template_dir"]);
 
 require_once("src/classes/Blog.php");
 
+session_start();
+
 ?>
 
 <!doctype html>
@@ -40,6 +42,8 @@ require_once("src/classes/Blog.php");
 <?php require_once("src/blocks/navbar.php"); ?>
 
 <div class="container mt-5">
+
+<?php require_once("src/blocks/alert.php"); ?>
 
 <?php
 

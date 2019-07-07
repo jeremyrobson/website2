@@ -1,12 +1,19 @@
 <?php
     $errors = array();
-    $input = array(
-        "secret_code" => @$_POST["secret_code"] ?? "",
-        "title" => @$_POST["title"] ?? "",
-        "author" => @$_POST["author"]?? "",
-        "date" => @$_POST["date"] ?? date("Y-m-d"),
-        "body" => @$_POST["body"]?? "",
-    );
+    $input = array();
+
+    if (empty($_SESSION["input"])) {
+        $input = array(
+            "secret_code" => @$_POST["secret_code"] ?? "",
+            "title" => @$_POST["title"] ?? "",
+            "author" => @$_POST["author"]?? "",
+            "date" => @$_POST["date"] ?? date("Y-m-d"),
+            "body" => @$_POST["body"]?? "",
+        );
+    }
+    else {
+        $input = $_SESSION["input"];
+    }
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $sef = strtolower(str_replace(" ", "_", $input["title"]));
@@ -33,6 +40,7 @@
                 "template" => "blog_post.php",
                 "body" => $input["body"],
             ));
+            $redirect = BASE_URL . "/home";
         }
         else {
             $alert = array(
@@ -40,14 +48,15 @@
                 "title" => "Validation Error",
                 "message" => "There are errors on the form"
             );
+            $_SESSION["alerts"][] = $alert;
+            $_SESSION["input"] = $input;
+            $redirect = BASE_URL . "/editor";
         }
 
-        //header("Location: " . BASE_URL . "/main");
-        //die();
+        header("Location: $redirect");
+        die();
     }
 ?>
-
-<?php if (isset($alert)): include(TEMPLATE_DIR . "/alert.php"); endif; ?>
 
 <h1>Secret Editor</h1>
 

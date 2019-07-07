@@ -19,29 +19,32 @@ if (isset($_POST["message_submitted"])) {
     $mail->SMTPSecure = $config["mail"]["secure"];
     $mail->Port = $config["mail"]["port"];
     $mail->setFrom($config["site"]["contact_email"], "Contact");
+    //$mail->setFrom($email_from, $email_from);
     $mail->addAddress($config["site"]["admin_email"], 'Jeremy Robson');
     $mail->addReplyTo($email_from, 'noreply');
     $mail->isHTML(false);
     $mail->Subject = $subject;
     $mail->Body = $message;
-print_r($mail); die;
+
     try {
         $mail->send();
         $alert = array(
             "type" => "success",
             "title" => "Success!",
-            "message" => "Your message has been sent successfully"
+            "message" => "Thanks for contacting me. I will get back to you shortly!"
         );
+        $redirect = BASE_URL . "/home";
     } catch (Exception $e) {
         $alert = array(
             "type" => "danger",
             "title" => "Message could not be sent!",
             "message" => 'Mailer Error: ' . $mail->ErrorInfo
         );
+        $redirect = BASE_URL . "/contact";
     }
     $_SESSION["alerts"][] = $alert;
-    $url = $config["site"]["base_url"] . "/contact";
-    header("Location: $url");
+
+    header("Location: $redirect");
     die();
 }
 ?>
@@ -50,7 +53,7 @@ print_r($mail); die;
 
 <h1>Contact Me</h1>
 
-<form class="pt-5" action="contact" method="post">
+<form class="pt-5" action="contact" method="post" onsubmit="submit_button.disabled = true; return true;">
     <input type="hidden" name="page" value="contact" />
     <input type="hidden" name="message_submitted" value="1" />
     <div class="form-group">
@@ -62,6 +65,6 @@ print_r($mail); die;
         <textarea class="form-control" id="message" name="message" cols="80" rows="8" maxlength="1000" required>test</textarea>
     </div>
 
-    <input type="submit" class="btn btn-primary float-right" value="Send 💌" />
+    <input type="submit" id="submit_button" class="btn btn-primary float-right" value="Send 💌" />
     <div class="clearfix"></div>
 </form>
