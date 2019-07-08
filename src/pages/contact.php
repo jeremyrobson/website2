@@ -58,11 +58,11 @@ if (isset($_POST["message_submitted"])) {
     <input type="hidden" name="message_submitted" value="1" />
     <div class="form-group">
         <label for="exampleInputEmail1">Your email address</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" maxlength="255" required value="test@test.com"/>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" maxlength="255" required value=""/>
     </div>
     <div class="form-group">
         <label for="message">Your message to me</label>
-        <textarea class="form-control" id="message" name="message" cols="80" rows="8" maxlength="1000" required>test</textarea>
+        <textarea class="form-control" id="message" name="message" cols="80" rows="8" maxlength="1000" required></textarea>
     </div>
 
     <input type="submit" id="submit_button" class="btn btn-primary float-right" value="Send 💌" />
