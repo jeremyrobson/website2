@@ -56,6 +56,7 @@ if (isset($_POST["message_submitted"])) {
 <form class="pt-5" action="contact" method="post" onsubmit="submit_button.disabled = true; return true;">
     <input type="hidden" name="page" value="contact" />
     <input type="hidden" name="message_submitted" value="1" />
+    
     <div class="form-group">
         <label for="exampleInputEmail1">Your email address</label>
         <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" maxlength="255" required value=""/>
@@ -64,6 +65,8 @@ if (isset($_POST["message_submitted"])) {
         <label for="message">Your message to me</label>
         <textarea class="form-control" id="message" name="message" cols="80" rows="8" maxlength="1000" required></textarea>
     </div>
+
+    <div class="g-recaptcha" data-theme="dark" data-sitekey="<?=$RECAPTCHA_SITE_KEY?>"></div>
 
     <input type="submit" id="submit_button" class="btn btn-primary float-right" value="Send 💌" />
     <div class="clearfix"></div>

@@ -10,6 +10,7 @@ define("BASE_URL", $config["site"]["base_url"]);
 define("ROOT_DIR", __DIR__);
 define("BLOG_DIR", ROOT_DIR . "/" . $config["site"]["blog_dir"]);
 define("TEMPLATE_DIR", ROOT_DIR . "/" . $config["site"]["template_dir"]);
+define("RECAPTCHA_SITE_KEY", $config["site"]["recaptcha_site_key"]);
 
 require_once("src/classes/Blog.php");
 

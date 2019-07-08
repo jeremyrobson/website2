@@ -18,7 +18,7 @@
             <a href="https://codepen.io/jeremyrobson/">My Codepen</a>
         </li>
         <li>
-            <a href="http://soundclick.jeremyrobson.com">My SoundClick</a>
+            <a href="https://www.soundclick.com/jeremyrobson">My SoundClick</a>
         </li>
         <li>
             <a href="instagram">My Instagram</a>
