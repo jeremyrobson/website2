@@ -22,7 +22,7 @@
             </li>
         </ul>
         <a href="https://www.github.com/jeremyrobson/website2">
-            <img src="img/GitHub-Mark-Light-32px.png">
+            <img src="img/GitHub-Mark-Light-32px.png" alt="Github Logo">
         </a>
     </div>
 </nav>

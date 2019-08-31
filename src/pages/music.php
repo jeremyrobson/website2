@@ -2,9 +2,27 @@
 
 <div class="pt-5">
 
+<h3>2019</h3>
+<ul class="my-auto">
+    <li><em><a href="https://soundcloud.com/jeremyrobson/kiraras-theme-from-samurai-7">Kirara's Theme from Samurai 7</a></em> a mockup of music by Kaoru Wada</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/koto-aria">Koto - Aria</a></em></li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/romance-for-piano-and-strings">Romance for Piano and Strings</a></em></li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/lydian-overture">Lydian Overture</a></em></li>
+</ul>
+
+<h3>2018</h3>
+<ul class="my-auto">
+    <li><em><a href="https://soundcloud.com/jeremyrobson/suite-from-sylvan-tale">Suite from Sylvan Tale</a></em> based on themes from Sylvan Tale</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/a-heros-march">A Hero's March</a></em> with respect to Williams, Goldsmith, Silvestri, and Horner</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/exodus">Exodus</a></em></li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/gallys-theme-arranged"></a></em> based on a theme by Kaoru Wada</li>
+</ul>
+
 <h3>2017</h3>
 <ul class="my-auto">
     <li><em><a href="https://soundcloud.com/jeremyrobson/rei-iv">Rei IV</a></em> based on themes from Neon Genesis Evangelion</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/symphony-no-4-iv-ballad">Symphony No. 4 - IV. Ballad</a></em></li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/ovelias-song">Ovelia's Song</a></em> based on themes from Final Fantasy Tactics</li>
 </ul>
 
 <h3>2016</h3>
@@ -20,14 +38,18 @@
 <ul class="my-auto">
     <li><em><a href="https://soundcloud.com/jeremyrobson/cantus">Cantus</a></em> in memory of James Horner</li>
     <li><em><a href="https://soundcloud.com/jeremyrobson/winter-fantasia">Winter Fantasia</a></em> based on themes from Final Fantasy IX</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/rio-sparkos">Rio Sparkos</a></em> based on themes from Mega Man 3</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/singing-mountain-overture">Singing Mountain Overture</a></em> based on themes from Chrono Trigger</li>
 </ul>
 
 <h3>2014</h3>
 <ul class="my-auto">
+    <li>Set up <em><a href="https://www.youtube.com/channel/UCfBk-TS4bOK2t0JFcFNufHw">youtube channel</a></em></li>
     <li><em><a href="https://jeremyrobson.bandcamp.com/album/the-history-of-democedia-vol-i">The History of Democedia Vol. I</a></em></li>
     <li><em><a href="https://jeremyrobson.bandcamp.com/album/the-history-of-democedia-vol-ii">The History of Democedia Vol. II</a></em></li>
     <li><em><a href="https://jeremyrobson.bandcamp.com/album/the-history-of-democedia-vol-iii">The History of Democedia Vol. III</a></em></li>
     <li><em><a href="https://soundcloud.com/jeremyrobson/winters-arrival">Winter's Arrival</a> (after John Williams)</em> for orchestra</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/love-theme-from-lufia-2">Love Theme from Lufia 2</a></em> based on themes from Lufia 2</li>
 </ul>
 
 <h3>2013</h3>
@@ -45,7 +67,7 @@
 <ul class="my-auto">
     <li><em><a href="https://soundcloud.com/jeremyrobson/symphony-no-3-iv-ricercare">Symphony No. 3 - IV. Ricercare</a></em></li>
     <li><em><a href="#">Theme144</a></em></li>
-    <li><em><a href="#">Ballet Suite - Nos. 3-6</a></em></li>
+    <li><em><a href="#">Ballet Suite Nos. 3-7</a></em></li>
     <li><em><a href="https://soundcloud.com/jeremyrobson/theme-of-iris">Suite for Jazz Orchestra No. VI</a></em> based on themes from FF6</li>
     <li><em><a href="#">The Fanatics Tower</a></em> based on themes from FF6</li>
     <li><em><a href="https://soundcloud.com/jeremyrobson/ave-maria">Ave Maria</a></em></li>
@@ -68,6 +90,7 @@
 <ul class="my-auto">
     <li>Moved from Gigastudio to Kontakt</li>
     <li><em><a href="https://soundcloud.com/jeremyrobson/symphony-no-3-i-allegro-agitato">Symphony No. 3 - I. Allegro agitato</a></em></li>
+    <li><em><a href="http://sd3.ocremix.org/">Hortus Conclusis</a></em> based on a theme from Seiken Densetsu 3</li>
 </ul>
 
 <h3>2008</h3>
@@ -78,6 +101,9 @@
 
 <h3>2007</h3>
 <ul class="my-auto">
+    <li>Won the Maurice Dubin Memorial Prize in Composition (Queen's University, 2007)</li>
+    <li>Won the Graham George Memorial Prize in Composition (Queen's University, 2007)</li>
+    <li>Set up jeremyrobson.com (according to the Wayback Machine)</li>
     <li><em>Cantata for Dancing</em> movements 1 and 2, based on themes from FF6</li>
     <li><em>Jazz Suite No. 6</em> based on themes from FF6</li>
     <li><em>Devotion & Deception</em> based on themes from FF8</li>
@@ -88,6 +114,8 @@
 
 <h3>2006</h3>
 <ul class="my-auto">
+    <li>Won the Maurice Dubin Memorial Prize in Composition (Queen's University, 2006)</li>
+    <li>First live orchestral performance (Symphony No. 1 in D minor)</li>
     <li><em>Valse Aeris</em> for the OC ReMix FF7 album Voices of the Lifestream</li>
     <li><em>The World Beyond</em> for Wind Orchestra based on themes from Dragon Quest - Student Work</li>
     <li><em>The Edge of the Northern Crater</em> based on themes from Final Fantasy VII</li>
@@ -127,6 +155,7 @@
 
 <h3>2004</h3>
 <ul class="my-auto">
+    <li>Set up page on soundclick.com (soundcloud's predecessor)</li>
     <li><em>Final Fantasy VII Philharmonic Suite</em> movements 2-6</li>
     <li><em>The Storm</em> for orchestra</li>
     <li><em>Symphonic Allegro (after Shostakovich)</em> for orchestra</li>
@@ -142,7 +171,7 @@
 <h3>2003</h3>
 <ul class="my-auto">
     <li>Finished three more movements for <em>Symphony in D minor</em></li>
-    <li>First OC ReMix submission: <a href="https://ocremix.org/remix/OCR01011">Final Fantasy VII Philharmonic Suite: Part I</a></li>
+    <li>First OC ReMix submission: <em><a href="https://ocremix.org/remix/OCR01011">Final Fantasy VII Philharmonic Suite: Part I</a></em></li>
     <li>Entered Queen's University as a Bachelor of Music student</li>
     <li>Various commissions for student films and television commercials</li>
 </ul>
@@ -162,7 +191,8 @@
 
 <h3>2000</h3>
 <ul class="my-auto">
-    <li><em>Cult</em> game sountrack (MIDI)</li>
+    <li><em>Cult</em> game soundtrack (MIDI)</li>
+    <li>Set up page on mp3.com (soundcloud's ancient ancestor)</li>
 </ul>
 
 <h3>1999</h3>
@@ -172,7 +202,7 @@
 
 <h3>1998</h3>
 <ul class="my-auto">
-    <li>Created simple website on Angelfire (free webhost similar to Geocities) to host MIDIs</li>
+    <li>Created simple website on Angelfire (free web host similar to Geocities) to host MIDIs</li>
 </ul>
 
 <h3>1997</h3>
