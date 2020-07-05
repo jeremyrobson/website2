@@ -76,7 +76,7 @@ if (!empty($page)) {
 
 ?>
 
-<?php require_once("src/blocks/blog_links.php"); ?>
+<?php //require_once("src/blocks/blog_links.php"); ?>
 
 </div>
 

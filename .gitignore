@@ -2,6 +2,7 @@
 **/log
 **/vendor
 **/mp3s
+**/.idea
 config.ini
 phpinfo.php
 .phpunit.result.cache

@@ -2,8 +2,23 @@
 
 <div class="pt-5">
 
+<h3>2020</h3>
+<ul class="my-auto">
+    <li><em><a href="https://soundcloud.com/jeremyrobson/second-overture">Second Overture</a></em> an original piece in the style of an 80s fantasy/adventure soundtrack</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/innocent-ocean">Innocent Ocean</a></em> an arrangement of a theme from Seiken Densetsu 3 by Hiroki Kikuta</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/toward-the-farthermost-region">Toward the Farthermost Region</a></em> an original composition written in a modern Hollywood style</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/the-dramatic-tiger">The Dramatic Tiger</a></em> an original composition in the style of a Taiga Drama soundtrack</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/cids-dream">Cid's Dream</a></em> an arrangement of music from Final Fantasy VII with references to Morricone and Horner</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/eternity-infinity-mockup">Eternity & Infinity</a></em> a mockup of music from Gundam Wing by Kow Otani</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/background-music">Background Music</a></em> some nice background music</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/variations-on-a-theme-by-james-horner">Variations on a Theme by James Horner</a></em> an arrangement of music from Braveheart</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/an-arbitrary-confrontation">An Arbitrary Confrontation</a></em> my attempt at a modern JRPG battlet theme</li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/mai-fairy-tale">Mai Fairy Tale</a></em> an arrangement of music from Mai HIME by Yuki Kajiura</li>
+</ul>
+
 <h3>2019</h3>
 <ul class="my-auto">
+    <li><em><a href="https://soundcloud.com/jeremyrobson/calamity-elle">Calamity Elle from Terranigma</a></em> an arrangement of music from Terranigma</li>
     <li><em><a href="https://soundcloud.com/jeremyrobson/kiraras-theme-from-samurai-7">Kirara's Theme from Samurai 7</a></em> a mockup of music by Kaoru Wada</li>
     <li><em><a href="https://soundcloud.com/jeremyrobson/koto-aria">Koto - Aria</a></em></li>
     <li><em><a href="https://soundcloud.com/jeremyrobson/romance-for-piano-and-strings">Romance for Piano and Strings</a></em></li>
@@ -123,8 +138,8 @@
     <li><em><a href="https://soundcloud.com/jeremyrobson/koto-violin-theme">Koto: Violin Theme</a></em></li>
     <li><em><a href="https://soundcloud.com/jeremyrobson/koto-melancholy">Koto: Melancholy</a></em></li>
     <li><em><a href="https://soundcloud.com/jeremyrobson/koto-theme">Koto: Main Theme</a></em></li>
-    <li><em>Koto: Dance (anime20.mid)</em></li>
-    <li><em>Koto: Ending (_ENDING.mid)</em></li>
+    <li><em>Koto: Dance</em></li>
+    <li><em>Koto: Ending</em></li>
     <li><em>Battle Theme No. 1</em></li>
     <li><em>Battle Theme No. 2</em></li>
     <li><em>Six Movements for Clarinet Choir</em> - Student Work</li>
@@ -137,7 +152,6 @@
     <li><em>Tetris Piano Concerto in A minor</em></li>
     <li><em>Battle of the Angels</em> based on themes from Final Fantasy Tactics</li>
     <li><em>Suite from Link's Awakening</em></li>
-    <li><em>The Dream</em></li>
     <li><em>Suite from Chrono Trigger</em></li>
     <li><em>Not So Ordinary People</em> based on themes from Seiken Densetsu 3</li>
     <li><em>Two Motivic Episodes</em> for Wind Orchestra</li>
@@ -146,7 +160,8 @@
     <li><em>Chronoscapes</em> based on themes from Chrono Trigger</li>
     <li><em>Ballet Suite Nos. 1-3</em></li>
     <li><em>Clarinet Sonata No. 2</em> (4 movements) - Student Work</li>
-    <li><em>Dramatic Orchestral Suite</em> (5 movements)</li>
+    <li><em>Dramatic Orchestral Suite</em> (6 movements)</li>
+    <li><em>Scenes d'amour</em></li>
     <li><em>Unnamed Composition for Piano Trio</em> (1 movement) - Student Work</li>
     <li><em>Unnamed Composition for Trumpet and Xylophone</em> (1 movement) - Student Work</li>
     <li><em>The Dream</em> for orchestra</li>
@@ -158,19 +173,28 @@
     <li>Set up page on soundclick.com (soundcloud's predecessor)</li>
     <li><em>Final Fantasy VII Philharmonic Suite</em> movements 2-6</li>
     <li><em>The Storm</em> for orchestra</li>
-    <li><em>Symphonic Allegro (after Shostakovich)</em> for orchestra</li>
-    <li><em>Prelude in Eb Major (after Bruckner)</em> for orchestra</li>
+    <li><em>Symphonic Allegro (after Shostakovich)</em> for orchestra - contest entry</li>
+    <li><em>
+            <a href="https://soundcloud.com/jeremyrobson/symphonic-prelude-in-eb-major">
+                Symphonic Prelude in Eb Major (after Bruckner)</a>
+        </em> for orchestra</li>
     <li><em>A Falcon, a Whale, and an Unknown Land</em> based on themes from FF4, FF5, and FF6</li>
     <li><em>Lufia 2: Themes and Variations</em></li>
     <li><em>Symphony of Mana</em> based on themes from Secret of Mana</li>
     <li><em>The Kingdom of Figaro</em> based on themes from FF6</li>
+    <li><em>Moon March</em> orchestral contest entry</li>
+    <li><em>The Mushroom Wedding</em> based on themes from Super Mario RPG - orchestral contest entry</li>
+    <li><em>A Fistful of Shuriken</em> based on a theme from FF6</li>
     <li><em>Sonata for Clarinet</em> in Three Movements - Student Work</li>
+    <li><em>Duet for Two Clarinets</em> in Three Movements - Student Work</li>
     <li><em>Low Tide on Grand Pre</em> for soprano voice - Student Work</li>
 </ul>
 
 <h3>2003</h3>
 <ul class="my-auto">
-    <li>Finished three more movements for <em>Symphony in D minor</em></li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/symphony-no-1-ii-andante-animoso">Symphony in D minor - II. Andante animoso</a></em></li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/symphony-no-iii-lento">Symphony in D minor - III. Lento</a></em></li>
+    <li><em><a href="https://soundcloud.com/jeremyrobson/symphony-no-1-iv-epilogue">Symphony in D minor - IV. Epilogue</a></em></li>
     <li>First OC ReMix submission: <em><a href="https://ocremix.org/remix/OCR01011">Final Fantasy VII Philharmonic Suite: Part I</a></em></li>
     <li>Entered Queen's University as a Bachelor of Music student</li>
     <li>Various commissions for student films and television commercials</li>
@@ -179,7 +203,16 @@
 <h3>2002</h3>
 <ul class="my-auto">
     <li><em><a href="malta">The Knights of Malta</a></em> Symphonic Suite</li>
-    <li><em>A Symphonic Requiem</em> for orchestra and chorus</li>
+    <li><em>A Symphonic Requiem</em> for orchestra and chorus (my first major work)
+        <ol>
+            <li>I. Moderato</li>
+            <li>II. Allegro</li>
+            <li>III. Andante</li>
+            <li>IV. Larghetto</li>
+            <li>V. Adagio</li>
+            <li>VI. </li>
+        </ol>
+    </li>
     <li><em><a href="https://soundcloud.com/jeremyrobson/symphony-no-1-in-d-minor-i-serenade">Symphony in D minor - I. Serenade</a></em></li>
     <li><em>Cult II: Federal Crime</em> game soundtrack (MIDI)</li>
 </ul>
@@ -198,6 +231,7 @@
 <h3>1999</h3>
 <ul class="my-auto">
     <li>First (unsuccessful) attempts at writing own game (RPG) music</li>
+    <li>II. Prologue - not sure what this was...</li>
 </ul>
 
 <h3>1998</h3>
